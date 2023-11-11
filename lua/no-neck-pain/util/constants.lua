@@ -64,6 +64,11 @@ C.integrations = {
         close = "lua require('dapui').close()",
         open = "lua require('dapui').open()",
     },
+		ToggleTerm = {
+			fileTypePattern = "toggleterm",
+			close = "ToggleTermCloseAll",
+			open = "ToggleTermOpen",
+		}
 }
 
 return C
